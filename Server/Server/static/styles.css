@@ -1,0 +1,39 @@
+﻿body {
+    background: #00a2e8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.login {
+    text-align: center;
+    padding: 2em;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+input {
+    margin: 2em;
+}
+
+button {
+    background-color: #2008eb;
+    color: white;
+    padding: 1em;
+    border-radius: 5px;
+    border-radius: 5px;
+    transition: all 1s;
+}
+
+.right {
+    float: right;
+    transition: all 1s;
+}
+
+.right:hover {
+    transform: rotateY(180deg);
+}
+
+button:hover {
+    background-color: #03042c;
+    opacity: 0.3;
+    transform: translateX(100px) rotateZ(45deg);
+}
+

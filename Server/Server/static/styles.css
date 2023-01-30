@@ -34,6 +34,6 @@ button {
 button:hover {
     background-color: #03042c;
     opacity: 0.3;
-    transform: translateX(100px) rotateZ(45deg);
+    /*transform: translateX(100px) rotateZ(45deg);*/
 }
 

@@ -10,7 +10,7 @@
     <h1>Login to FakeBook</h1>
     <img src="logo.png" class="right" />
     <p>Welcome to FakeBook. We exist to harvest your data.</p>
-    <div class="login">
+    <form class="login" method="post" id="login">
         <div>
             <label for="username">
                 Username:
@@ -28,12 +28,10 @@
             Welcome to FakeBook
         </div>
 
-        <button onclick="reset();">Reset my password</button>
-        <button onclick="createUser();">Create an account</button>
-        <button onclick="login();">Login</button>
-    </div>
-    <script src="lib1.js"></script>
-    <script src="lib2.js"></script>
-    <script src="lib3.js"></script>
+        <input type="button" onclick="reset();" value="Reset my password" />
+        <input type="button" onclick="createUser();" value="Create an account" />
+        <input type="button" onclick="login();" value="Login" />
+    </form>
+    <script src="lib.js"></script>
 </body>
 </html>

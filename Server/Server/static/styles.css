@@ -13,7 +13,7 @@ input {
     margin: 2em;
 }
 
-button {
+input[type=button] {
     background-color: #2008eb;
     color: white;
     padding: 1em;
@@ -31,7 +31,7 @@ button {
     transform: rotateY(180deg);
 }
 
-button:hover {
+input[type=button]:hover {
     background-color: #03042c;
     opacity: 0.3;
     /*transform: translateX(100px) rotateZ(45deg);*/
